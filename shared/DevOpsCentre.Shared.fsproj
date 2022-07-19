@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Azure\Base.fs" />
+    <Compile Include="Azure\DevOps.fs" />
+    <Compile Include="Azure\Git.fs" />
+    <Compile Include="Azure\GitRefs.fs" />
+    <Compile Include="Azure\PullRequest.fs" />
+    <Compile Include="Azure\Build.fs" />
+    <Compile Include="Azure\CodeSearch.fs" />
+    <Compile Include="Library.fs" />
+  </ItemGroup>
+</Project>
